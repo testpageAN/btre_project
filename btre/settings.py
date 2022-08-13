@@ -148,3 +148,11 @@ MESSAGE_TAGS = {
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Email configuration
+EMAIL_HOST = 'smtp-mail.outlook.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'alexis.nikolopoulos@hotmail.com'
+EMAIL_HOST_PASSWORD = 'AlexioS!973'
+EMAIL_USE_TLS = True
