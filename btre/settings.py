@@ -153,6 +153,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Email configuration
 EMAIL_HOST = 'smtp-mail.outlook.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'alexis.nikolopoulos@hotmail.com'
-EMAIL_HOST_PASSWORD = 'AlexioS!973'
+EMAIL_HOST_USER = 'myemail'
+EMAIL_HOST_PASSWORD = 'mypassword'
 EMAIL_USE_TLS = True
