@@ -28,13 +28,13 @@ def contact(request):
         contact.save()
 
         # send email
-        send_mail(
-            'Subject here',
-            'Here is the message.',
-            'alexis.nikolopoulos@hotmail.com',
-            [realtor_email, 'alexis.nikolopoulos@hotmail.com'],
-            fail_silently=False
-        )
+#         send_mail(
+#             'Subject here',
+#             'Here is the message.',
+#             'alexis.nikolopoulos@hotmail.com',
+#             [realtor_email, 'alexis.nikolopoulos@hotmail.com'],
+#             fail_silently=False
+#         )
 
         messages.success(request, "Your request has been submitted, a realtor will get back to you soon")
 
